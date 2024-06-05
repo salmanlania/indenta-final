@@ -1,0 +1,52 @@
+{
+  "blog": [
+    {
+      "id": 1,
+      "img": "/images/blog/blog-01.png",
+      "blogImg": "/images/blog/blog-detailes-01.png",
+      "blogImg2": "/images/blog/blog-detailes-02.png",
+      "title": "Real State",
+      "desc": "Implement user authentication to provide personalized experiences"
+    },
+    {
+      "id": 2,
+      "img": "/images/blog/blog-02.png",
+      "blogImg": "/images/blog/blog-detailes-01.png",
+      "blogImg2": "/images/blog/blog-detailes-02.png",
+      "title": "Fintech",
+      "desc": "Implement user authentication to provide personalized experiences"
+    },
+    {
+      "id": 3,
+      "img": "/images/blog/blog-03.png",
+      "blogImg": "/images/blog/blog-detailes-01.png",
+      "blogImg2": "/images/blog/blog-detailes-02.png",
+      "title": "Construction",
+      "desc": "Implement user authentication to provide personalized experiences"
+    },
+    {
+      "id": 4,
+      "img": "/images/blog/blog-04.png",
+      "blogImg": "/images/blog/blog-detailes-01.png",
+      "blogImg2": "/images/blog/blog-detailes-02.png",
+      "title": "Tourism",
+      "desc": "Implement user authentication to provide personalized experiences"
+    },
+    {
+      "id": 5,
+      "img": "/images/blog/blog-05.png",
+      "blogImg": "/images/blog/blog-detailes-01.png",
+      "blogImg2": "/images/blog/blog-detailes-02.png",
+      "title": "Manufacturing & Trading",
+      "desc": "Implement user authentication to provide personalized experiences"
+    },
+    {
+      "id": 6,
+      "img": "/images/blog/blog-06.png",
+      "blogImg": "/images/blog/blog-detailes-01.png",
+      "blogImg2": "/images/blog/blog-detailes-02.png",
+      "title": "Hospitality",
+      "desc": "Implement user authentication to provide personalized experiences"
+    }
+  ]
+}

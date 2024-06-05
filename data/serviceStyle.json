@@ -1,0 +1,56 @@
+{
+  "serviceOne": [
+    {
+      "img": "/images/icons/service-icon-01.svg",
+      "title": "Ask anything",
+      "desc": "Lets users quickly find answers to their questions without having to search through multiple sources."
+    },
+    {
+      "img": "/images/icons/service-icon-02.svg",
+      "title": "Connect everywhere",
+      "desc": "Lets users quickly find answers to their questions without having to search through multiple sources."
+    },
+    {
+      "img": "/images/icons/service-icon-03.svg",
+      "title": "Fast responding",
+      "desc": "Lets users quickly find answers to their questions without having to search through multiple sources."
+    },
+    {
+      "img": "/images/icons/service-icon-01.svg",
+      "title": "Ask anything",
+      "desc": "Lets users quickly find answers to their questions without having to search through multiple sources."
+    },
+    {
+      "img": "/images/icons/service-icon-02.svg",
+      "title": "Connect everywhere",
+      "desc": "Lets users quickly find answers to their questions without having to search through multiple sources."
+    },
+    {
+      "img": "/images/icons/service-icon-03.svg",
+      "title": "Fast responding",
+      "desc": "Lets users quickly find answers to their questions without having to search through multiple sources."
+    }
+  ],
+  "serviceTwo": [
+    {
+      "img": "/images/service/service-icon-01.png",
+      "title": "Consultation",
+      "desc": "Engaging with clients to identify challenges and opportunities."
+    },
+    {
+      "img": "/images/service/service-icon-02.png",
+      "title": "Research & Development",
+      "desc": "Crafting bespoke AI solutions through rigorous research and innovation."
+    },
+    {
+      "img": "/images/service/service-icon-03.png",
+      "title": "Implementation",
+      "desc": "Seamlessly integrating AI solutions into existing business processes."
+    },
+    {
+      "img": "/images/service/service-icon-03.png",
+      "title": "Support & Optimization",
+      "desc": "Providing ongoing support and reﬁnement to ensure maximum impact and efﬁciency."
+    }
+  ]
+}

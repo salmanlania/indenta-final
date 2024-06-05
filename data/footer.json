@@ -1,0 +1,60 @@
+{
+  "footer": [
+    {
+      "links": [
+        {
+          "title": "Qucik Links",
+          "innerItem": [
+            {
+              "link": "/home",
+              "text": "Home"
+            },
+            {
+              "link": "/team",
+              "text": "Team"
+            },
+            {
+              "link": "/contact",
+              "text": "Contact"
+            }
+          ]
+        }
+      ],
+      "services": [
+        {
+          "title": "Services",
+          "innerItem": [
+            {
+              "link": "/image-generator",
+              "text": "Image Generator"
+            },
+            {
+              "link": "/vedio-generator",
+              "text": "Video Generator"
+            },
+            {
+              "link": "/text-generator",
+              "text": "Text Generator"
+            },
+            {
+              "link": "/code-generator",
+              "text": "Code Generator"
+            },
+            {
+              "link": "#",
+              "text": "Education Feedback"
+            }
+          ]
+        }
+      ],
+      "contact": [
+        {
+          "location": "21-C 5th Zamzama Street, Zamzama Commercial Area, Phase-5,DHA Karach |",
+          "mail": "info@indenta.ai",
+          "website": "https://indenta.ai/",
+          "number": "111-222-456"
+        }
+      ]
+    }
+  ]
+}
