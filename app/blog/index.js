@@ -24,7 +24,7 @@ const BlogPage = () => {
             btnClass="rainbow-gradient-btn"
           />
           <PopupMobileMenu />
-          <Breadcrumb title="Our Blog" text="Blog" />
+          <Breadcrumb title="Our Services" text="Blog" />
 
           <Blog />
 

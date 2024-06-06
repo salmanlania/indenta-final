@@ -2,12 +2,12 @@
   "TabStyleOne": [
     {
       "title": "Company Overview",
-      "img": "/images/generator-img/chat-export-vedio.png",
+      "img": "/images/generator-img/1.png",
       "menuId": "video-generator",
       "text": "Company Overview",
       "target": "video-generate",
       "iconImg": "/images/icons/video-g.png",
-      "isSelect": false,
+      "isSelect": true,
       "subItem": [
         {
           "text": "Indenta AI has been at the forefront of AI innovation, offering state of the art solutions that drive efﬁciency and growth across various industries. Our mission is to revolutionize industries through cutting edge AI technologies, enabling businesses to harness the full potential of their data. Our vision is to be a global leader in AI driven transformation, setting new standards for excellence and innovation."
@@ -16,12 +16,12 @@
     },
     {
       "title": "Our Vision",
-      "img": "/images/generator-img/chat-export-audio.png",
+      "img": "/images/generator-img/2.png",
       "menuId": "audio-generate",
       "text": "Our Vision",
       "target": "audio-generate",
       "iconImg": "/images/icons/audio-g.png",
-      "isSelect": true,
+      "isSelect": false,
       "subItem": [
         {
           "text": "At Indenta AI, we envision a future where AI seamlessly integrates into every aspect of business, driving efﬁciency, enhancing decision-making, and unlocking new opportunities for growth. Our goal is to be the catalyst for this transformation, helping organizations harness the full potential of AI."
@@ -30,7 +30,7 @@
     },
     {
       "title": "Core Values",
-      "img": "/images/generator-img/chat-export-photo.png",
+      "img": "/images/generator-img/3.png",
       "menuId": "photo-generator",
       "text": "Core Values",
       "target": "photo-generate",
@@ -50,7 +50,7 @@
     },
     {
       "title": "Our Commitment",
-      "img": "/images/generator-img/chat-export.png",
+      "img": "/images/generator-img/4.png",
       "menuId": "text-generator",
       "text": "Our Commitment",
       "target": "text-generate",
@@ -69,7 +69,7 @@
       "target": "home-tab",
       "isSelect": true,
       "menuText": "Construction",
-      "img": "/images/split/split-1.png",
+      "img": "/images/split/construction.png",
       "title": "Construction",
       "desc": "In the construction industry, AI is revolutionizing project management, safety monitoring, and productivity enhancement.Indenta AI offers state-of-the-art solutions that utilize AI algorithms to streamline operations and ensure projects are completed efficiently, safely, and within budget."
     },
@@ -78,7 +78,7 @@
       "target": "profile-tab",
       "isSelect": false,
       "menuText": "Fintech",
-      "img": "/images/split/split-4.png",
+      "img": "/images/split/fintech.png",
       "title": "Fintech",
       "desc": "In the fintech industry, AI is transforming the way financial institutions operate, from fraud detection to customer analytics and automated financial services. Indenta AI offers cutting-edge AI solutions that enable fintech companies to enhance security, improve efficiency, and deliver personalized services to their customers."
     },
@@ -87,7 +87,7 @@
       "target": "contact-tab",
       "isSelect": false,
       "menuText": "Real Estate",
-      "img": "/images/split/split-3.png",
+      "img": "/images/split/real-state.png",
       "title": "Real State",
       "desc": "The real estate industry is experiencinga digital transformation, with AI playing acrucialrolein property management, market analysis, and personalized customer service. Indenta AI offers innovative AI solutions that enable real estate professionals to stay ahead of the competition and provide exceptional services to their clients."
     },
@@ -96,7 +96,7 @@
       "target": "contact-tab",
       "isSelect": false,
       "menuText": "Hospitality",
-      "img": "/images/split/split-5.png",
+      "img": "/images/split/hospitality.png",
       "title": "Hospitality",
       "desc": "The hospitality industry is all about providing exceptional guest experiences, and AI is playinga crucial role in achieving this goal. Indenta AI offers AI solutions that help hospitality businesses enhance guest experiences, improve operational efficiency, and provide personalized services."
     },
@@ -105,7 +105,7 @@
       "target": "contact-tab",
       "isSelect": false,
       "menuText": "Tourism",
-      "img": "/images/split/split-5.png",
+      "img": "/images/split/tourism.png",
       "title": "Tourism",
       "desc": "In the tourism industry, AI is transforming the way businesses interact with customers, from travel recommendations to booking management and customer engagement. Indenta AI offers AI solutions that help tourism businesses provide personalized services and enhance customer experiences."
     },
@@ -114,7 +114,7 @@
       "target": "contact-tab",
       "isSelect": false,
       "menuText": "Manufacturing & Trading",
-      "img": "/images/split/split-5.png",
+      "img": "/images/split/trading.png",
       "title": "Manufacturing & Trading",
       "desc": "In the manufacturing and trading industries, AI is revolutionizing supply chain management, quality control, and demand forecasting. Indenta AI offers AI solutions that help manufacturing and trading companies optimize their operations, reduce costs, and improve profitability."
     }

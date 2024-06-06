@@ -37,17 +37,18 @@ const Team = () => {
                     </div>
                     <ul className="social-icon">
                       <li>
-                        <a href="#">
+                        {/* https://www.facebook.com/ */}
+                        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" style={{color: 'black !important'}} className="teamsocialicons black">
                           <i className="fab fa-facebook-f"></i>
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" style={{color: 'black !important'}} className="teamsocialicons black">
                           <i className="fab fa-linkedin-in"></i>
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" style={{color: 'black !important'}} className="teamsocialicons black">
                           <i className="fab fa-twitter"></i>
                         </a>
                       </li>
@@ -127,17 +128,17 @@ const Team = () => {
                     <ul className="social-icon">
                       <li>
                         {/* https://www.facebook.com/ */}
-                        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" className="teamsocialicons">
+                        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" style={{color: 'black !important'}} className="teamsocialicons black">
                           <i className="fab fa-facebook-f"></i>
                         </a>
                       </li>
                       <li>
-                        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" className="teamsocialicons">
+                        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" style={{color: 'black !important'}} className="teamsocialicons black">
                           <i className="fab fa-linkedin-in"></i>
                         </a>
                       </li>
                       <li>
-                        <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" className="teamsocialicons">
+                        <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" style={{color: 'black !important'}} className="teamsocialicons black">
                           <i className="fab fa-twitter"></i>
                         </a>
                       </li>

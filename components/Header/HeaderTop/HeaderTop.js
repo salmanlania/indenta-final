@@ -8,7 +8,7 @@ const HeaderTop = () => {
   const { toggleTop, setToggle } = useAppContext();
   return (
     <>
-      <div
+      {/* <div
         className={`header-top-news bg-image1 ${toggleTop ? "" : "deactive"}`}
       >
         <div className="wrapper">
@@ -43,7 +43,7 @@ const HeaderTop = () => {
             <i className="fa-sharp fa-regular fa-x"></i>
           </button>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

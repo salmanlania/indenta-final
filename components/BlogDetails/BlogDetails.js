@@ -47,7 +47,7 @@ const SingleBlog = ({ getBlog }) => {
                                 alt="Blog Images"
                               />
                             </div>
-                            <ul className="rainbow-meta-list">
+                            {/* <ul className="rainbow-meta-list">
                               <li>
                                 <i className="feather-user me-2"></i>
                                 <a href="#">Fazlay Elahi Rafi</a>
@@ -56,61 +56,27 @@ const SingleBlog = ({ getBlog }) => {
                                 <i className="feather-calendar me-2"></i>
                                 {matchedBlog.date}
                               </li>
-                            </ul>
+                            </ul> */}
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div className="blog-details-content pt--40">
+                  <div className="blog-details-content pt--90">
                     <div className="container">
                       <div className="row">
                         <div className="col-lg-12">
                           <div className="content">
                             <h2 className="title">{matchedBlog.title}</h2>
+                            <p>{matchedBlog.desc}</p>
 
-                            <p>
-                              Integrating artificial intelligence (AI) into your
-                              startup can indeed unlock exponential growth by
-                              enhancing efficiency, improving decision-making,
-                              and providing innovative solutions. Here are 10
-                              ways to supercharge your startup with AI
-                              integration:
-                            </p>
-
-                            <h6>1.Automated Customer Support:</h6>
-                            <p>
-                              Implement AI-powered chatbots and virtual
-                              assistants to provide instant and personalized
-                              customer support. This not only improves customer
-                              satisfaction but also frees up human resources for
-                              more complex tasks.
-                            </p>
-
-                            <h6>2.Data-driven Decision Making:</h6>
-                            <p>
-                              Implement AI-powered chatbots and virtual
-                              assistants to provide instant and personalized
-                              customer support. This not only improves customer
-                              satisfaction but also frees up human resources for
-                              more complex tasks.
-                            </p>
-
-                            <h6>3.AI-driven Innovation:</h6>
-                            <p>
-                              Encourage a culture of innovation by using AI to
-                              generate insights and ideas. AI can assist in
-                              identifying market gaps, predicting industry
-                              trends, and proposing innovative solutions to
-                              common challenges.
-                            </p>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
 
-                  <div className="post-page-banner">
+                  {/* <div className="post-page-banner">
                     <div className="container">
                       <div className="row">
                         <div className="col-lg-12">
@@ -128,8 +94,8 @@ const SingleBlog = ({ getBlog }) => {
                         </div>
                       </div>
                     </div>
-                  </div>
-                  <div className="blog-details-content pt--40 rainbow-section-gapBottom">
+                  </div> */}
+                  {/* <div className="blog-details-content pt--40 rainbow-section-gapBottom">
                     <div className="container">
                       <div className="row">
                         <div className="col-lg-12">
@@ -264,37 +230,37 @@ const SingleBlog = ({ getBlog }) => {
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <div className="col-lg-4 mt_md--40 mt_sm--40">
                 <aside className="rainbow-sidebar">
                   <div className="rbt-single-widget widget_search mt--40">
-                    <div className="inner">
+                    {/* <div className="inner">
                       <form className="blog-search" action="#">
                         <input type="text" placeholder="Search ..." />
                         <button className="search-button">
                           <i className="feather-search"></i>
                         </button>
                       </form>
-                    </div>
+                    </div> */}
                   </div>
-                  <div className="rbt-single-widget widget_categories mt--40">
+                  {/* <div className="rbt-single-widget widget_categories mt--40">
                     <h3 className="title">Categories</h3>
                     <Categories category={BlogData && BlogData.categories} />
-                  </div>
+                  </div> */}
                   <div className="rbt-single-widget widget_recent_entries mt--40">
-                    <h3 className="title">Post</h3>
+                    <h3 className="title">Services</h3>
                     <BlogPost blogpost={BlogData && BlogData.blog} />
                   </div>
-                  <div className="rbt-single-widget widget_archive mt--40">
+                  {/* <div className="rbt-single-widget widget_archive mt--40">
                     <h3 className="title">Archives</h3>
                     <Archives blogarc={BlogData && BlogData.blog} />
-                  </div>
-                  <div className="rbt-single-widget widget_tag_cloud mt--40">
+                  </div> */}
+                  {/* <div className="rbt-single-widget widget_tag_cloud mt--40">
                     <h3 className="title">Tags</h3>
                     <BlogTags tags={BlogData && BlogData.tags} />
-                  </div>
+                  </div> */}
                 </aside>
               </div>
             </div>

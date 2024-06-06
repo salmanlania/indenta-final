@@ -5,7 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { useAppContext } from "@/context/Context";
 
-import logoLight from "../../public/images/logo/logo.png";
+import logoLight from "../../public/images/logo/logo.svg";
 
 import Nav from "./Nav";
 import SmallNav from "./SmallNav";
@@ -62,7 +62,7 @@ const PopupMobileMenu = () => {
               <SmallNav />
             </div>
           </div>
-          <div className="header-btn d-block d-md-none">
+          {/* <div className="header-btn d-block d-md-none">
             <Link
               className="btn-default"
               target="_blank"
@@ -70,7 +70,7 @@ const PopupMobileMenu = () => {
             >
               Get Started Free
             </Link>
-          </div>
+          </div> */}
         </div>
       </div>
     </>

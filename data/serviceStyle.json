@@ -33,22 +33,22 @@
   ],
   "serviceTwo": [
     {
-      "img": "/images/service/service-icon-01.png",
+      "img": "/images/service/s1.png",
       "title": "Consultation",
       "desc": "Engaging with clients to identify challenges and opportunities."
     },
     {
-      "img": "/images/service/service-icon-02.png",
+      "img": "/images/service/s2.png",
       "title": "Research & Development",
       "desc": "Crafting bespoke AI solutions through rigorous research and innovation."
     },
     {
-      "img": "/images/service/service-icon-03.png",
+      "img": "/images/service/s3.png",
       "title": "Implementation",
       "desc": "Seamlessly integrating AI solutions into existing business processes."
     },
     {
-      "img": "/images/service/service-icon-03.png",
+      "img": "/images/service/s4.png",
       "title": "Support & Optimization",
       "desc": "Providing ongoing support and reﬁnement to ensure maximum impact and efﬁciency."
     }

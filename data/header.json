@@ -19,12 +19,6 @@
       "text": "Team"
     },
     {
-      "link": "/blog-detail",
-      "isIcon": false,
-      "isMenu": false,
-      "text": "Industry"
-    },
-    {
       "link": "/contact",
       "isIcon": false,
       "isMenu": false,

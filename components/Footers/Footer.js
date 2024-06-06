@@ -79,6 +79,14 @@ const Footer = () => {
                                 <Link href="#">{inner.location}</Link>
                               </li>
                               <li>
+                                <i className="contact-icon fa-regular fa-location-dot"></i>
+                                <Link href="#">{inner.locationUae}</Link>
+                              </li>
+                              <li>
+                                <i className="contact-icon fa-regular fa-location-dot"></i>
+                                <Link href="#">{inner.locationUsa}</Link>
+                              </li>
+                              <li>
                                 <i className="contact-icon fa-sharp fa-regular fa-envelope"></i>
                                 <Link href="#">{inner.mail}</Link>
                               </li>

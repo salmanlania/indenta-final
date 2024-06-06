@@ -7,7 +7,7 @@ const BlogPost = ({ blogpost }) => {
     <>
       <div className="inner">
         <ul>
-          {blogpost.slice(0, 3).map((data) => (
+          {blogpost.slice(0, 6).map((data) => (
             <li key={data.id}>
               <div className="list-blog-sm">
                 <div className="img">

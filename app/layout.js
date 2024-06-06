@@ -30,6 +30,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={sora.className} suppressHydrationWarning={true}>
+      {/* <link rel="icon" href="/images/logo.svg" sizes="any" /> */}
         {children}
       </body>
     </html>

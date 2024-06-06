@@ -10,8 +10,16 @@
               "text": "Home"
             },
             {
+              "link": "/blog",
+              "text": "Service"
+            },
+            {
               "link": "/team",
               "text": "Team"
+            },
+            {
+              "link": "/home",
+              "text": "Industry"
             },
             {
               "link": "/contact",
@@ -25,24 +33,28 @@
           "title": "Services",
           "innerItem": [
             {
-              "link": "/image-generator",
-              "text": "Image Generator"
-            },
-            {
-              "link": "/vedio-generator",
-              "text": "Video Generator"
-            },
-            {
-              "link": "/text-generator",
-              "text": "Text Generator"
-            },
-            {
-              "link": "/code-generator",
-              "text": "Code Generator"
+              "link": "#",
+              "text": "Construction"
             },
             {
               "link": "#",
-              "text": "Education Feedback"
+              "text": "Fintech"
+            },
+            {
+              "link": "#",
+              "text": "Real State"
+            },
+            {
+              "link": "#",
+              "text": "Hospitality"
+            },
+            {
+              "link": "#",
+              "text": "Tourism"
+            },
+            {
+              "link": "#",
+              "text": "Manufacturing & Trading"
             }
           ]
         }
@@ -50,6 +62,8 @@
       "contact": [
         {
           "location": "21-C 5th Zamzama Street, Zamzama Commercial Area, Phase-5,DHA Karach |",
+          "locationUae": "Ofﬁce 212, 2nd Floor, Pyramid Center, Oud metha, Dubai |",
+          "locationUsa": "12614 10th St. Chino, CA 91710, Los Angeles, USA",
           "mail": "info@indenta.ai",
           "website": "https://indenta.ai/",
           "number": "111-222-456"

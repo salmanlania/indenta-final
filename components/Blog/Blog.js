@@ -11,13 +11,13 @@ import Archives from "./BlogItems/Archives";
 import BlogTags from "./BlogItems/BlogTags";
 import BrandTwo from "../Brands/Brand-Two";
 
-const Blog = () => {
+const Service = () => {
   return (
     <>
       <div className="rainbow-blog-area rainbow-section-gap bg-color-1 ">
         <div className="container">
           <div className="row row--30">
-            <div className="col-lg-12" style={{marginLeft : 'auto' , marginRight : 'auto'}}>
+            <div className="col-lg-8" style={{marginLeft : 'auto' , marginRight : 'auto'}}>
               <BlogItem blog={BlogData && BlogData.blog} />
             </div>
             {/* <div className="col-lg-4 mt_md--40 mt_sm--40">
@@ -54,7 +54,7 @@ const Blog = () => {
         </div>
       </div>
 
-      <div className="rainbow-brand-area rainbow-section-gap bg-color-1">
+      {/* <div className="rainbow-brand-area rainbow-section-gap bg-color-1">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
@@ -91,9 +91,9 @@ const Blog = () => {
         <div className="bg-shape-left">
           <Image src={bgShape} width={688} height={1055} alt="Bg shape" />
         </div>
-      </div>
+      </div> */}
     </>
   );
 };
 
-export default Blog;
+export default Service;

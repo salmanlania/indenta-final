@@ -7,7 +7,8 @@ import Sal from "sal.js";
 
 import playApp from "../../public/images/cta-img/play-app.png";
 import appleApp from "../../public/images/cta-img/apple-app.png";
-import viewImg from "../../public/images/cta-img/view-img.png";
+// import viewImg from "../../public/images/cta-img/view-img.png";
+import viewImg from "../../public/images/cta-img/view-image.png";
 import bgShape from "../../public/images/cta-img/bg-shape.png";
 import bgLight from "../../public/images/bg/bg-shape-tree.png";
 

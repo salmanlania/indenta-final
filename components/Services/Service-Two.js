@@ -24,6 +24,7 @@ const ServiceTwo = () => {
             <div className="service service__style--1 aiwave-style text-center">
               <div className="icon">
                 <Image
+                style={{borderRadius : '6rem'}}
                   src={data.img}
                   width={91}
                   height={90}

@@ -1,0 +1,76 @@
+{
+  "team": [
+    {
+      "img": "/images/team/waqas.png",
+      "name": "Mr. Waqas Ali",
+      "profission": " Chief AI Scientist",
+      "location": "CO Miego, AD,USA"
+    },
+    {
+      "img": "/images/team/team-08.png",
+      "name": "Syed Hassan",
+      "profission": "Head Of Marketing",
+      "location": "CO Miego, AD,USA"
+    },
+    {
+      "img": "/images/team/shahbaz.png",
+      "name": "Mr. Shahbaz Abdullah",
+      "profission": "Chief Project Management Officer",
+      "location": "CO Miego, AD,USA"
+    },
+    {
+      "img": "/images/team/hammad.png",
+      "name": " Mr. Hammad Raza",
+      "profission": "Team Lead Data Science",
+      "location": "CO Miego, AD,USA"
+    },
+    {
+      "img": "/images/team/amna.png",
+      "name": "Ms. Amna Dadi",
+      "profission": "Customer Journey Manager",
+      "location": "CO Miego, AD,USA"
+    },
+    {
+      "img": "/images/team/rumail.png",
+      "name": "Mr. Rumail Ahmed",
+      "profission": "IT Services & Security Office",
+      "location": "CO Miego, AD,USA"
+    },
+    {
+      "img": "/images/team/farhan.png",
+      "name": "Mr. Farhan Wali",
+      "profission": "Team Lead  Generative AI",
+      "location": "CO Miego, AD,USA"
+    },
+    {
+      "img": "/images/team/nawal.png",
+      "name": "Ms. Nawal Arshad",
+      "profission": "Team Lead UI/UX",
+      "location": "CO Miego, AD,USA"
+    },
+    {
+      "img": "/images/team/zohan.png",
+      "name": "Mr. Zohan Zafar",
+      "profission": "Back-end Development",
+      "location": "CO Miego, AD,USA"
+    },
+    {
+      "img": "/images/team/hassan.png",
+      "name": "Mr. Hafiz Hassan Mustafa",
+      "profission": "Team Lead NLP",
+      "location": "CO Miego, AD,USA"
+    },
+    {
+      "img": "/images/team/team-04.png",
+      "name": "Ms. Nawal Arshad",
+      "profission": "Team Lead UI/UX",
+      "location": "CO Miego, AD,USA"
+    },
+    {
+      "img": "/images/team/salman.png",
+      "name": "Mr. Salman Lania",
+      "profission": "Team Lead Front-end Developer",
+      "location": "CO Miego, AD,USA"
+    }
+  ]
+}

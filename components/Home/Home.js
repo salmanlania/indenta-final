@@ -6,9 +6,11 @@ import Image from "next/image";
 import Sal from "sal.js";
 
 import PricingData from "../../data/pricing.json";
-import logo from "../../public/images/logo/logo.svg";
+import logo from "../../public/images/logo/logo1.png";
 
-import SplitImg from "../../public/images/split/split-2.png";
+// import SplitImg from "../../public/images/split/split-2.png";
+import SplitImg from "../../public/images/split/icons.png";
+// import SplitImg from "../../public/images/split/iconny.png";
 import SplitLogo from "../../public/images/split/split-2-logo.png";
 import bannerImg from "../../public/images/bg/slider-main-image.png";
 import shapeOne from "../../public/images/bg/icon-shape/icon-shape-one.png";
@@ -59,22 +61,9 @@ const Home = () => {
                 {/* <h1 className="title display-one">
                   INDENTA
                 </h1> */}
-                <div className="col-lg-2 col-md-6 col-6">
-                  <div className="logo">
-                    <Link href="/home">
-                      <Image
-                        className="logo-light"
-                        src={logo}
-                        width={135}
-                        height={35}
-                        alt="ChatBot Logo"
-                      />
-                    </Link>
-                  </div>
-                </div>
-                <p className="description">
-                  Transforming Industries with AI
-                </p>
+                <h2 className="title mb--0">
+                  About Us
+                </h2>
                 {/* <div className="form-group">
                   <textarea
                     name="text"
@@ -155,7 +144,7 @@ const Home = () => {
           <div className="row">
             <div className="col-lg-12">
               <div
-                className="section-title text-center pb--60"
+                className="section-title text-center pb--20"
                 data-sal="slide-up"
                 data-sal-duration="700"
                 data-sal-delay="100"
@@ -165,37 +154,15 @@ const Home = () => {
                     RAINBOW UNLOCKS THE POTENTIAL ai
                   </span>
                 </h4> */}
-                <h2 className="title mb--0">
-                  About Us
-                </h2>
+                
               </div>
             </div>
           </div>
           <TabStyleOne />
         </div>
-        {/* <div className="container">
-          <div className="row">
-            <div className="col-lg-12">
-              <div
-                className="section-title text-center pb--60"
-                data-sal="slide-up"
-                data-sal-duration="700"
-                data-sal-delay="100"
-              >
-                <h4 className="subtitle">
-                  <span className="theme-gradient">
-                    RAINBOW UNLOCKS THE POTENTIAL ai
-                  </span>
-                </h4>
-                <h2 className="title mb--0">
-                  Generative AI made for <br /> creators.
-                </h2>
-              </div>
-            </div>
-          </div>
-          <TabStyleOne />
-        </div> */}
       </div>
+
+      
 
       {/* <div className="rainbow-service-area rainbow-section-gap rainbow-section-gapBottom-big">
         <div className="container">
@@ -222,6 +189,9 @@ const Home = () => {
 
       <div className="rainbow-advance-tab-area aiwave-bg-gradient rainbow-section-gap-big">
         <div className="container">
+          <h2 className="title mb--2">
+            Industries We Serve
+          </h2>
           <div className="html-tabs" data-tabs="true">
             <AdvanceTab />
           </div>
@@ -230,10 +200,12 @@ const Home = () => {
           <Image src={bgShape} width={630} height={879} alt="Bg Shape" />
         </div>
       </div>
-      {/* 
-      <div className="rainbow-collobration-area rainbow-section-gap-big">
+
+      
+      
+      <div className="rainbow-collobration-area rainbow-section-gap-big" style={{padding : '80px 0 !important'}}>
         <div className="container">
-          <div className="row">
+          {/* <div className="row">
             <div className="col-lg-12">
               <div
                 className="section-title text-center"
@@ -257,9 +229,9 @@ const Home = () => {
                 </Link>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="row">
-            <div className="col-lg-12 mt--60">
+            <div className="col-lg-12">
               <div className="collabration-image-section">
                 <Image
                   src={SplitImg}
@@ -267,21 +239,21 @@ const Home = () => {
                   height={712}
                   alt="collabration-image"
                 />
-                <div className="logo-section">
+                {/* <div className="logo-section">
                   <div className="center-logo">
                     <Image
-                      src={SplitLogo}
+                      src={logo}
                       width={104}
                       height={143}
                       alt="Small Logo"
                     />
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
         </div>
-      </div> */}
+      </div> 
 
       {/* <div className="rainbow-rn-cta">
         <div className="container">
@@ -360,6 +332,8 @@ const Home = () => {
         </div>
       </div>
 
+      
+
       <div className="rainbow-brand-area rainbow-section-gap">
         <div className="container">
           <div className="row">
@@ -370,9 +344,9 @@ const Home = () => {
                 data-sal-duration="700"
                 data-sal-delay="100"
               >
-                <p className="b1 mb--0 small-title">
+                <h2 className="title mb--2">
                   Trusted Partners & Valued Clients
-                </p>
+                </h2>
               </div>
             </div>
           </div>

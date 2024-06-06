@@ -23,7 +23,7 @@ const BlogDetailsPage = ({ getBlog }) => {
             btnClass="rainbow-gradient-btn"
           />
           <PopupMobileMenu />
-          <Breadcrumb title="Blog Details" text="Blog Details" />
+          <Breadcrumb title="Service Details" text="Blog Details" />
 
           <SingleBlog getBlog={getBlog} />
 

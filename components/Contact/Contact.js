@@ -4,6 +4,9 @@ import Link from "next/link";
 import ContactForm from "./ContactForm";
 
 const Contact = () => {
+  const address = [
+    "https://maps.app.goo.gl/Tptahpjm2yRov5vPA",
+  ]
   return (
     <>
       <div className="main-content">
@@ -126,15 +129,23 @@ const Contact = () => {
                   <div className="icon">
                     <i className="fa-sharp fa-regular fa-location-dot"></i>
                   </div>
-                  <div className="inner">
+                  <div className="inner" style={{ display: 'flex', flexDirection: 'column', gap: '2rem' }}>
                     <h4 className="title">Location</h4>
-                    <p className="b2">
-                      {/* 100 avenue of the moon, 12 new <br /> York, ny 1001B US. */}
-                      21-C 5th Zamzama Street, Zamzama <br /> Commercial Area, Phase-5, DHA Karachi
-                    </p>
+                    <div className="b2">
+                      <h2 className="title" style={{ fontSize: '1.4rem' }}>Pakistan</h2>
+                      <Link href={address[0]} target="_blank">21-C 5th Zamzama Street, Zamzama <br /> Commercial Area, Phase-5, DHA Karachi</Link>
+                    </div>
+                    <div className="b2">
+                      <h2 className="title" style={{ fontSize: '1.4rem' }}>UAE</h2>
+                      <Link href={address[0]} target="_blank">Ofﬁce 212, 2nd Floor, Pyramid <br /> Center, Oud metha, Dubai</Link>
+                    </div>
+                    <div className="b2">
+                      <h2 className="title" style={{ fontSize: '1.4rem' }}>USA</h2>
+                      <Link href={address[0]} target="_blank">12614 10th St. Chino, <br /> CA 91710, Los Angeles, USA</Link>
+                    </div>
                   </div>
                 </div>
-                <div className="rainbow-address">
+                {/* <div className="rainbow-address">
                   <div className="icon">
                     <i className="fa-sharp fa-solid fa-headphones"></i>
                   </div>
@@ -143,11 +154,8 @@ const Contact = () => {
                     <p className="b2">
                       <Link href="#">111-222-45</Link>
                     </p>
-                    {/* <p className="b2">
-                      <Link href="#">+222 222 222 333</Link>
-                    </p> */}
                   </div>
-                </div>
+                </div> */}
                 <div className="rainbow-address">
                   <div className="icon">
                     <i className="fa-sharp fa-regular fa-envelope"></i>

@@ -7,7 +7,7 @@
       "location": "CO Miego, AD,USA"
     },
     {
-      "img": "/images/team/team-08.png",
+      "img": "/images/team/syed_hassan.png",
       "name": "Syed Hassan",
       "profission": "Head Of Marketing",
       "location": "CO Miego, AD,USA"
@@ -55,22 +55,17 @@
       "location": "CO Miego, AD,USA"
     },
     {
-      "img": "/images/team/team-final/hassan.png",
-      "name": "Mr. Hafiz Hassan Mustafa",
-      "profission": "Team Lead NLP",
-      "location": "CO Miego, AD,USA"
-    },
-    {
-      "img": "/images/team/team-04.png",
-      "name": "Ms. Nawal Arshad",
-      "profission": "Team Lead UI/UX",
-      "location": "CO Miego, AD,USA"
-    },
-    {
       "img": "/images/team/team-final/salman.png",
       "name": "Mr. Salman Lania",
       "profission": "Team Lead Front-end Developer",
       "location": "CO Miego, AD,USA"
+    },
+    {
+      "img": "/images/team/team-final/hassan.png",
+      "name": "Mr. Hafiz Hassan Mustafa",
+      "profission": "Team Lead NLP",
+      "location": "CO Miego, AD,USA"
     }
+   
   ]
 }

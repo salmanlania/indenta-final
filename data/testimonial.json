@@ -7,7 +7,7 @@
       "name": "Guy Hawkins",
       "post": "Nursing Assistant",
       "userImg": "/images/team/team-02sm.jpg",
-      "brandImg": "/images/brand/brand-t.png",
+      "brandImg": "/images/brand/cgd.png",
       "img": "/images/service/bg-testimonial.png",
       "imgHover": "/images/service/bg-testimonial-hover.png"
     },
@@ -16,7 +16,7 @@
       "name": "Guy Hawkins",
       "post": "Nursing Assistant",
       "userImg": "/images/team/team-02sm.jpg",
-      "brandImg": "/images/brand/brand-t.png",
+      "brandImg": "/images/brand/habibi.png",
       "img": "/images/service/bg-testimonial.png",
       "imgHover": "/images/service/bg-testimonial-hover.png"
     },
@@ -25,17 +25,16 @@
       "name": "Guy Hawkins",
       "post": "Nursing Assistant",
       "userImg": "/images/team/team-02sm.jpg",
-      "brandImg": "/images/brand/brand-t.png",
+      "brandImg": "/images/brand/mafco.png",
       "img": "/images/service/bg-testimonial.png",
       "imgHover": "/images/service/bg-testimonial-hover.png"
     },
     {
-      "isActive": true,
       "desc": "Rainbow-Themes has become such an integral part of our work! By putting our",
       "name": "Guy Hawkins",
       "post": "Nursing Assistant",
       "userImg": "/images/team/team-02sm.jpg",
-      "brandImg": "/images/brand/brand-t.png",
+      "brandImg": "/images/brand/newera.png",
       "img": "/images/service/bg-testimonial.png",
       "imgHover": "/images/service/bg-testimonial-hover.png"
     }

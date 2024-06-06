@@ -24,24 +24,24 @@ const BlogItem = ({ blog }) => {
                     </div>
                     <div className="content">
                       <ul className="rainbow-meta-list">
-                        <li>
+                        {/* <li>
                           <i className="fa-sharp fa-regular fa-calendar-days icon-left"></i>{" "}
                           {data.date}
                         </li>
-                        <li className="separator"></li>
-                        <li className="catagory-meta">
+                        <li className="separator"></li> */}
+                        {/* <li className="catagory-meta">
                           <a href="#">{data.cate}</a>
-                        </li>
+                        </li> */}
                       </ul>
                       <h4 className="title">
                         <Link href={`/blog-detail/${data.id}`}>
                           {data.title}
                         </Link>
                       </h4>
-                      <p className="description">{data.desc}</p>
-                      <a className="btn-read-more border-transparent" href="#">
+                      {/* <p className="description">{data.desc}</p> */}
+                      <a className="btn-read-more border-transparent" href="/contact">
                         <span>
-                          Read More{" "}
+                          Contact Us{" "}
                           <i className="fa-sharp fa-regular fa-arrow-right"></i>
                         </span>
                       </a>

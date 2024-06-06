@@ -8873,7 +8873,7 @@ button.btn-transparent:hover::after {
 .copyright-area p a:hover {
   color: var(--color-primary);
 }
-.teamsocialicons{
+.team ul.social-icon li a{
   color: black !important;
 }
 /*# sourceMappingURL=style.css.map */

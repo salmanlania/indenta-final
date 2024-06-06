@@ -39,9 +39,8 @@ const Header = ({ headerTransparent, headerSticky, btnClass }) => {
   return (
     <>
       <header
-        className={`rainbow-header header-default ${headerTransparent} ${headerSticky} ${
-          isSticky ? "sticky" : ""
-        }`}
+        className={`rainbow-header header-default ${headerTransparent} ${headerSticky} ${isSticky ? "sticky" : ""
+          }`}
       >
         <div className="container position-relative">
           <div className="row align-items-center row--0">
@@ -68,7 +67,7 @@ const Header = ({ headerTransparent, headerSticky, btnClass }) => {
             <div className="col-lg-2 col-md-6 col-6 position-static">
               <div className="header-right">
                 <div className="header-btn">
-                  <Link className={`${btnClass}`} href="/text-generator">
+                  <Link className={`${btnClass}`} href="/">
                     <span>Get Start</span>
                   </Link>
                 </div>

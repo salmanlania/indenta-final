@@ -15,7 +15,7 @@ const UserNav = ({ title }) => {
         <div className="settings-area">
           <h3 className="title">{title}</h3>
 
-          <ul className="user-nav">
+          {/* <ul className="user-nav">
             {HeaderData &&
               HeaderData.navDashboardItem.slice(0, 7).map((data, index) => (
                 <li key={index}>
@@ -29,7 +29,7 @@ const UserNav = ({ title }) => {
                   </Link>
                 </li>
               ))}
-          </ul>
+          </ul> */}
         </div>
       </div>
     </>
