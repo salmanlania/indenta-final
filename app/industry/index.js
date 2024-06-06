@@ -8,6 +8,7 @@ import Help from "@/components/Help/Help";
 import BackToTop from "../backToTop";
 import Footer from "@/components/Footers/Footer";
 import Copyright from "@/components/Footers/Copyright";
+import Header from "@/components/Header/Header";
 
 const HelpFaqPage = () => {
   return (
@@ -15,8 +16,13 @@ const HelpFaqPage = () => {
       <main className="page-wrapper rbt-dashboard-page">
         <Context>
           <div className="rbt-panel-wrapper">
-            <HeaderDashboard display="d-none" />
-
+            {/* <HeaderDashboard display="d-none" /> */}
+            {/* <Header /> */}
+            <Header
+            headerTransparent="header-transparent"
+            headerSticky="header-sticky"
+            btnClass="rainbow-gradient-btn"
+          />
             <PopupMobileMenu />
             {/* <LeftDashboardSidebar /> */}
 

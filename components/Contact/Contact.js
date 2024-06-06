@@ -12,81 +12,12 @@ const Contact = () => {
       <div className="main-content">
         <div className="rainbow-contact-area rainbow-section-gapTop-big">
           <div className="container">
-            <div className="row mt--40 row--15">
+            <div className="row mt--10 row--15">
               <div className="col-lg-8">
                 <div className="contact-details-box">
-                  <h3 className="title">Get Started with a free quotation</h3>
+                  {/* <h3 className="title">Get Started with a free quotation</h3> */}
 
                   <div className="profile-details-tab">
-                    {/* <div className="advance-tab-button">
-                      <ul
-                        className="nav nav-tabs tab-button-style-2 justify-content-start"
-                        id="settinsTab-4"
-                        role="tablist"
-                      >
-                        <li role="presentation">
-                          <a
-                            href="#"
-                            className="tab-button active"
-                            id="image-genarator-tab"
-                            data-bs-toggle="tab"
-                            data-bs-target="#image-genarator"
-                            role="tab"
-                            aria-controls="image-genarator"
-                            aria-selected="true"
-                          >
-                            <span className="title">AI Image</span>
-                            <span className="title">Generator</span>
-                          </a>
-                        </li>
-                        <li role="presentation">
-                          <a
-                            href="#"
-                            className="tab-button"
-                            id="photo-editor-tab"
-                            data-bs-toggle="tab"
-                            data-bs-target="#photo-editor"
-                            role="tab"
-                            aria-controls="photo-editor"
-                            aria-selected="true"
-                          >
-                            <span className="title">AI Photo</span>
-                            <span className="title">Generator</span>
-                          </a>
-                        </li>
-                        <li role="presentation">
-                          <a
-                            href="#"
-                            className="tab-button"
-                            id="email-genarator-tab"
-                            data-bs-toggle="tab"
-                            data-bs-target="#email-genarator"
-                            role="tab"
-                            aria-controls="email-genarator"
-                            aria-selected="true"
-                          >
-                            <span className="title">AI Email</span>
-                            <span className="title">Generator</span>
-                          </a>
-                        </li>
-                        <li role="presentation">
-                          <a
-                            href="#"
-                            className="tab-button"
-                            id="code-genarator-tab"
-                            data-bs-toggle="tab"
-                            data-bs-target="#code-genarator"
-                            role="tab"
-                            aria-controls="code-genarator"
-                            aria-selected="true"
-                          >
-                            <span className="title">AI Code</span>
-                            <span className="title">Generator</span>
-                          </a>
-                        </li>
-                      </ul>
-                    </div> */}
-
                     <div className="tab-content">
                       <div
                         className="tab-pane fade active show"
