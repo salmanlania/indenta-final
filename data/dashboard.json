@@ -620,33 +620,57 @@
   ],
   "accordion": [
     {
-      "title": "What is AiWave ? How does it work?",
-      "desc": "AiWave is an AI-powered messaging platform that understands and responds to your natural language queries. Ask anything you'd typically ask a human assistant—get weather updates, news, restaurant recommendations, and more!",
+      "title": "Product Portfolio",
+      "desc": "Advanced AI products such as intelligent automation tools, predictive analytics platforms, and AI-powered customer service solutions.",
       "isExpand": true
     },
     {
-      "title": "What kind of questions can I ask AiWave?",
-      "desc": "AiWave, an AI-driven messaging platform, adeptly communicates with users using natural language understanding. It delivers helpful responses to your inquiries and requests.",
+      "title": "Custom Solutions",
+      "desc": "Tailored AI services addressing speciﬁc business needs, including machine learning model development, natural language processing (NLP), and computer vision application",
       "isExpand": false
     },
     {
-      "title": "Can I get update regularly and For how long do I get updates?",
-      "desc": "Yes, We will get update the AiWave. And you can get it any time. Next time we will comes with more feature. You can be get update for unlimited times. Our dedicated team works for update.",
+      "title": "Technology Stack",
+      "desc": "Utilizing cutting-edge technologies and platforms like TensorFlow, PyTorch, OpenAI, and cloud services from AWS and Azure to build robust and scalable AI solutions.",
+      "isExpand": false
+    }
+  ],
+  "accordions": [
+    {
+      "title": "Indenta AI: Your Partner in Generative AI Development",
+      "desc": "At Indenta AI, we specialize in generative AI development, leveraging cutting-edge technology to create innovative solutions that push the boundaries of creativity and efﬁciency. Our team of experienced AI developers and researchers is dedicated to deliver high-quality generative AI solutions that meet the unique needs of our clients across industries.",
       "isExpand": false
     },
     {
-      "title": "How can I get the customer support?",
-      "desc": "After purchasing the product need you any support you can be share with us with sending mail to rainbowit10@gmail.com.",
+      "title": "What is Generative AI",
+      "desc": "Generative AI is a branch of artiﬁcial intelligence that focuses on creating machines capable of generating content, such as images, videos, text, and music, that is indistinguishable from human-created content. It involves using algorithms to learn from and mimic patterns in data, enabling the generation of new, original content.",
       "isExpand": false
     },
     {
-      "title": "HIs my data safe with AiWave?",
-      "desc": "Feel free to toss any questions at AiWave, just like you would with a human helper—whether it's about the weather, the latest news, restaurant suggestions, or anything else you fancy!",
+      "title": "Our Approach to Generative AI Development",
+      "desc": "At Indenta AI, we take a collaborative approach to generative AI development, working closely with our clients to understand their objectives and requirements. Our process involve",
+      "isExpand": false
+    }
+  ],
+  "accordioning": [
+    {
+      "title": "Consultation:",
+      "desc": "We begin by consulting with our clients to understand their goals and challenges, ensuring that we develop a solution that meets their needs.",
       "isExpand": false
     },
     {
-      "title": "Is AiWave available in multiple languages?",
-      "desc": "Yes, AiWave is designed to support multiple languages, offering a versatile and inclusive communication experience for users worldwide.",
+      "title": "Research & Development:",
+      "desc": "Our team of AI experts conducts in-depth research and development to create custom generative AI algorithms tailored to our clients' requirements",
+      "isExpand": false
+    },
+    {
+      "title": "Implementation:",
+      "desc": "We seamlessly integrate our generative AI solutions into our clients' existing systems, ensuring minimal disruption to their operations.",
+      "isExpand": false
+    },
+    {
+      "title": "Testing & Optimization:",
+      "desc": "We rigorously test and optimize our generative AI solutions to ensure they meet the highest standards of performance and reliability.",
       "isExpand": false
     }
   ]

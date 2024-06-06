@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useAppContext } from "@/context/Context";
 
-import logo from "../../public/images/logo/logo.png";
+import logo from "../../public/images/logo/logo.svg";
 import avatar from "../../public/images/team/team-01sm.jpg";
 
 import Nav from "./Nav";
@@ -26,7 +26,7 @@ const HeaderDashboard = ({ display }) => {
           <div className="row align-items-center justify-content-between">
             <div className="col-lg-3 col-md-6 col-6">
               <div className="header-left d-flex">
-                <div className="expand-btn-grp">
+                {/* <div className="expand-btn-grp">
                   <button
                     className={`bg-solid-primary popup-dashboardleft-btn ${
                       mobile ? "" : "collapsed"
@@ -35,7 +35,7 @@ const HeaderDashboard = ({ display }) => {
                   >
                     <i className="fa-sharp fa-regular fa-sidebar"></i>
                   </button>
-                </div>
+                </div> */}
                 <div className="logo">
                   <Link href="/">
                     <Image
@@ -68,7 +68,7 @@ const HeaderDashboard = ({ display }) => {
                     </button>
                   </div>
                 </div>
-
+{/* 
                 <div className="rbt-admin-panel account-access rbt-user-wrapper right-align-dropdown">
                   <div className="rbt-admin-card grid-style">
                     <a className="d-flex align-items-center" href="#">
@@ -89,7 +89,7 @@ const HeaderDashboard = ({ display }) => {
                   <div className="rbt-user-menu-list-wrapper">
                     <UserMenu />
                   </div>
-                </div>
+                </div> */}
 
                 <div className={`expand-btn-grp ${display}`}>
                   <button

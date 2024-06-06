@@ -6,6 +6,8 @@ import PopupMobileMenu from "@/components/Header/PopUpMobileMenu";
 import LeftDashboardSidebar from "@/components/Header/LeftDashboardSidebar";
 import Help from "@/components/Help/Help";
 import BackToTop from "../backToTop";
+import Footer from "@/components/Footers/Footer";
+import Copyright from "@/components/Footers/Copyright";
 
 const HelpFaqPage = () => {
   return (
@@ -16,13 +18,15 @@ const HelpFaqPage = () => {
             <HeaderDashboard display="d-none" />
 
             <PopupMobileMenu />
-            <LeftDashboardSidebar />
+            {/* <LeftDashboardSidebar /> */}
 
             <Help />
           </div>
           <BackToTop />
         </Context>
       </main>
+      <Footer />
+      <Copyright />
     </>
   );
 };

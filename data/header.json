@@ -19,6 +19,12 @@
       "text": "Team"
     },
     {
+      "link": "/industry",
+      "isIcon": false,
+      "isMenu": false,
+      "text": "industry"
+    },
+    {
       "link": "/contact",
       "isIcon": false,
       "isMenu": false,

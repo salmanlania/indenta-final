@@ -7,7 +7,7 @@ const ContactUs = () => {
         <div className="col-lg-6 col-md-6 col-sm-6 col-12">
           <div className="form-group">
             <label htmlFor="firstname">Name</label>
-            <input id="firstname" type="text" placeholder="Trent" />
+            <input id="firstname" type="text" placeholder="Enter Your Name" />
           </div>
         </div>
         <div className="col-lg-6 col-md-6 col-sm-6 col-12">
