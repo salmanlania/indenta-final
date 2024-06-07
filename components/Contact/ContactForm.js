@@ -18,8 +18,8 @@ const ContactForm = () => {
         </div>
         <div className="col-lg-6 col-md-6 col-sm-6 col-12">
           <div className="form-group">
-            <label htmlFor="username1">User Name</label>
-            <input id="username1" type="text" placeholder="Enter Your Username" />
+            <label htmlFor="username1">Email</label>
+            <input id="username1" type="email" placeholder="Enter Your Email" />
           </div>
         </div>
         <div className="col-lg-6 col-md-6 col-sm-6 col-12">

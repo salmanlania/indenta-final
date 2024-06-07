@@ -59,9 +59,9 @@ const Home = () => {
             <div className="col-lg-12">
               <div className="inner text-center mt--140">
                 <h1 className="title display-one">
-                  Examine the Potential of
+                  Transforming Industries
                   <br />{" "}
-                  <span className="header-caption">
+                  <span className="header-caption" style={{marginRight : '37rem' , textAlign : 'center'}}>
                     <span className="cd-headline rotate-1">
                       <span className="cd-words-wrapper">
                         <b
@@ -70,8 +70,9 @@ const Home = () => {
                               ? "is-visible theme-gradient"
                               : "is-hidden theme-gradient"
                           }
+                          style={{marginRight : '38rem' , textAlign : 'center' , fontSize : '7rem'}}
                         >
-                          AI Chating
+                          With Generative AI
                         </b>
                         <b
                           className={
@@ -79,8 +80,9 @@ const Home = () => {
                               ? "is-visible theme-gradient"
                               : "is-hidden theme-gradient"
                           }
+                          style={{marginRight : '38rem' , textAlign : 'center' , fontSize : '7rem'}}
                         >
-                          AI Writing
+                          With AI DEVELOPMENT
                         </b>
                         <b
                           className={
@@ -88,8 +90,9 @@ const Home = () => {
                               ? "is-visible theme-gradient"
                               : "is-hidden theme-gradient"
                           }
+                          style={{marginRight : '38rem' , textAlign : 'center' , fontSize : '7rem'}}
                         >
-                          AI Chating
+                          With Generative AI
                         </b>
                       </span>
                     </span>
@@ -181,12 +184,12 @@ const Home = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
-            {/* <h2 className="title mb--0" style={{marginLeft : 'auto'}}>About Us</h2> */}
+              {/* <h2 className="title mb--0" style={{marginLeft : 'auto'}}>About Us</h2> */}
               <div
-                // className="section-title text-center pb--20"
-                // data-sal="slide-up"
-                // data-sal-duration="700"
-                // data-sal-delay="100"
+              // className="section-title text-center pb--20"
+              // data-sal="slide-up"
+              // data-sal-duration="700"
+              // data-sal-delay="100"
               >
                 {/* <h4 className="subtitle">
                   <span className="theme-gradient">

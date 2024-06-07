@@ -68,7 +68,7 @@ const Contact = () => {
                     </div>
                     <div className="b2">
                       <h2 className="title" style={{ fontSize: '1.4rem' }}>UAE</h2>
-                      <Link href={address[0]} target="_blank">Ofﬁce 212, 2nd Floor, Pyramid <br /> Center, Oud metha, Dubai</Link>
+                      <Link href={address[0]} target="_blank">Office 212, 2nd Floor, Pyramid <br /> Center, Oud metha, Dubai</Link>
                     </div>
                     <div className="b2">
                       <h2 className="title" style={{ fontSize: '1.4rem' }}>USA</h2>

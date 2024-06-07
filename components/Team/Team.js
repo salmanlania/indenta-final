@@ -35,9 +35,8 @@ const Team = () => {
                       <h4 className="title">{data.name}</h4>
                       <p className="designation">{data.profission}</p>
                     </div>
-                    <ul className="social-icon">
+                    {/* <ul className="social-icon">
                       <li>
-                        {/* https://www.facebook.com/ */}
                         <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" style={{color: 'black !important'}} className="teamsocialicons black">
                           <i className="fab fa-facebook-f"></i>
                         </a>
@@ -52,7 +51,7 @@ const Team = () => {
                           <i className="fab fa-twitter"></i>
                         </a>
                       </li>
-                    </ul>
+                    </ul> */}
                   </div>
                 </div>
               ))}
@@ -125,7 +124,7 @@ const Team = () => {
                       <h4 className="title">{data.name}</h4>
                       <p className="designation">{data.profission}</p>
                     </div>
-                    <ul className="social-icon">
+                    {/* <ul className="social-icon">
                       <li>
                         <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" style={{color: 'black !important'}} className="teamsocialicons black">
                           <i className="fab fa-facebook-f"></i>
@@ -141,7 +140,7 @@ const Team = () => {
                           <i className="fab fa-twitter"></i>
                         </a>
                       </li>
-                    </ul>
+                    </ul> */}
                   </div>
                 </div>
               ))}
