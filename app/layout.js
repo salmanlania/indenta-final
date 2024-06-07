@@ -18,6 +18,7 @@ import "slick-carousel/slick/slick-theme.css";
 const sora = Sora({
   subsets:['latin'],
   weight:['100','200','300','400','500','600','700','800'],
+  variable: '--font-sora',
 })
 
 import "../public/scss/style.scss";

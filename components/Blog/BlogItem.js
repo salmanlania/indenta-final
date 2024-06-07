@@ -13,7 +13,7 @@ const BlogItem = ({ blog }) => {
                 <div className="rainbow-card undefined">
                   <div className="inner">
                     <div className="thumbnail">
-                      <Link className="image" href={`/blog-detail/${data.id}`}>
+                      <Link className="image" href={`/service-detail/${data.id}`}>
                         <Image
                           src={data.img}
                           width={413}
@@ -34,7 +34,7 @@ const BlogItem = ({ blog }) => {
                         </li> */}
                       </ul>
                       <h4 className="title">
-                        <Link href={`/blog-detail/${data.id}`}>
+                        <Link href={`/service-detail/${data.id}`}>
                           {data.title}
                         </Link>
                       </h4>
