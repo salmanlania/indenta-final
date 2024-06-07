@@ -58,12 +58,50 @@ const Home = () => {
           <div className="row justify-content-center">
             <div className="col-lg-12">
               <div className="inner text-center mt--140">
-                {/* <h1 className="title display-one">
+                <h1 className="title display-one">
+                  Examine the Potential of
+                  <br />{" "}
+                  <span className="header-caption">
+                    <span className="cd-headline rotate-1">
+                      <span className="cd-words-wrapper">
+                        <b
+                          className={
+                            visibleIndex === 0
+                              ? "is-visible theme-gradient"
+                              : "is-hidden theme-gradient"
+                          }
+                        >
+                          AI Chating
+                        </b>
+                        <b
+                          className={
+                            visibleIndex === 1
+                              ? "is-visible theme-gradient"
+                              : "is-hidden theme-gradient"
+                          }
+                        >
+                          AI Writing
+                        </b>
+                        <b
+                          className={
+                            visibleIndex === 2
+                              ? "is-visible theme-gradient"
+                              : "is-hidden theme-gradient"
+                          }
+                        >
+                          AI Chating
+                        </b>
+                      </span>
+                    </span>
+                  </span>{" "}
+                  {/* AI Hack */}
+                </h1>
+                {/* <h1 className="title ">
                   INDENTA
-                </h1> */}
+                </h1>
                 <h2 className="title mb--0">
                   About Us
-                </h2>
+                </h2> */}
                 {/* <div className="form-group">
                   <textarea
                     name="text"
@@ -143,18 +181,19 @@ const Home = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
+            {/* <h2 className="title mb--0" style={{marginLeft : 'auto'}}>About Us</h2> */}
               <div
-                className="section-title text-center pb--20"
-                data-sal="slide-up"
-                data-sal-duration="700"
-                data-sal-delay="100"
+                // className="section-title text-center pb--20"
+                // data-sal="slide-up"
+                // data-sal-duration="700"
+                // data-sal-delay="100"
               >
                 {/* <h4 className="subtitle">
                   <span className="theme-gradient">
-                    RAINBOW UNLOCKS THE POTENTIAL ai
+                  RAINBOW UNLOCKS THE POTENTIAL ai
                   </span>
                 </h4> */}
-                
+
               </div>
             </div>
           </div>
@@ -162,7 +201,7 @@ const Home = () => {
         </div>
       </div>
 
-      
+
 
       {/* <div className="rainbow-service-area rainbow-section-gap rainbow-section-gapBottom-big">
         <div className="container">
@@ -201,9 +240,9 @@ const Home = () => {
         </div>
       </div>
 
-      
-      
-      <div className="rainbow-collobration-area rainbow-section-gap-big" style={{padding : '80px 0 !important'}}>
+
+
+      <div className="rainbow-collobration-area rainbow-section-gap-big" style={{ padding: '80px 0 !important' }}>
         <div className="container">
           {/* <div className="row">
             <div className="col-lg-12">
@@ -253,7 +292,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </div> 
+      </div>
 
       {/* <div className="rainbow-rn-cta">
         <div className="container">
@@ -332,7 +371,7 @@ const Home = () => {
         </div>
       </div>
 
-      
+
 
       <div className="rainbow-brand-area rainbow-section-gap">
         <div className="container">
