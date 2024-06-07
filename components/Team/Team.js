@@ -127,7 +127,6 @@ const Team = () => {
                     </div>
                     <ul className="social-icon">
                       <li>
-                        {/* https://www.facebook.com/ */}
                         <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" style={{color: 'black !important'}} className="teamsocialicons black">
                           <i className="fab fa-facebook-f"></i>
                         </a>

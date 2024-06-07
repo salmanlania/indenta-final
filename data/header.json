@@ -22,7 +22,13 @@
       "link": "/industry",
       "isIcon": false,
       "isMenu": false,
-      "text": "industry"
+      "text": "Industry"
+    },
+    {
+      "link": "/product",
+      "isIcon": false,
+      "isMenu": false,
+      "text": "Product"
     },
     {
       "link": "/contact",

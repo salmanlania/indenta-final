@@ -4,7 +4,7 @@ import React, { useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
 
-import BlogData from "../../data/product.json";
+import BlogData from "../../data/blog.json";
 
 import Categories from "../Blog/BlogItems/Categories";
 import BlogPost from "../Blog/BlogItems/BlogPost";

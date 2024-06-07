@@ -1,0 +1,130 @@
+{
+  "blog": [
+    {
+      "id": 1,
+      "blogImg": "/images/blog/construction.png",
+      "img": "/images/split/construction.png",
+      "blogImg2": "/images/split/construction.png",
+      "title": "Construction",
+      "desc": "In the construction industry, AI is revolutionizing project management, safety monitoring, and productivity enhancement.Indenta AI offers state-of-the-art solutions that utilize AI algorithms to streamline operations and ensure projects are completed efficiently, safely, and within budget."
+    },
+    {
+      "id": 2,
+      "img": "/images/split/fintech.png",
+      "blogImg": "/images/blog/fintech.png",
+      "blogImg2": "/images/split/fintech.png",
+      "title": "Fintech",
+      "desc": "In the fintech industry, AI is transforming the way financial institutions operate, from fraud detection to customer analytics and automated financial services. Indenta AI offers cutting-edge AI solutions that enable fintech companies to enhance security, improve efficiency, and deliver personalized services to their customers."
+    },
+    {
+      "id": 3,
+      "img": "/images/split/real-state.png",
+      "blogImg": "/images/blog/real-state.png",
+      "blogImg2": "/images/split/real-state.png",
+      "title": "Real State",
+      "desc": "The real estate industry is experiencinga digital transformation, with AI playing acrucialrolein property management, market analysis, and personalized customer service. Indenta AI offers innovative AI solutions that enable real estate professionals to stay ahead of the competition and provide exceptional services to their clients."
+    },
+    {
+      "id": 4,
+      "img": "/images/split/hospitality.png",
+      "blogImg": "/images/blog/hospitality.png",
+      "blogImg2": "/images/split/hospitality.png",
+      "title": "Hospitality",
+      "desc": "The hospitality industry is all about providing exceptional guest experiences, and AI is playinga crucial role in achieving this goal. Indenta AI offers AI solutions that help hospitality businesses enhance guest experiences, improve operational efficiency, and provide personalized services."
+    },
+    {
+      "id": 5,
+      "img": "/images/split/tourism.png",
+      "blogImg": "/images/blog/tourism.png",
+      "blogImg2": "/images/split/tourism.png",
+      "title": "Tourism",
+      "desc": "In the tourism industry, AI is transforming the way businesses interact with customers, from travel recommendations to booking management and customer engagement. Indenta AI offers AI solutions that help tourism businesses provide personalized services and enhance customer experiences."
+    },
+    {
+      "id": 6,
+      "img": "/images/split/trading.png",
+      "blogImg": "/images/blog/trading.png",
+      "blogImg2": "/images/split/trading.png",
+      "title": "Manufacturing & Trading",
+      "desc": "In the manufacturing and trading industries, AI is revolutionizing supply chain management, quality control, and demand forecasting. Indenta AI offers AI solutions that help manufacturing and trading companies optimize their operations, reduce costs, and improve profitability."
+    }
+  ],
+  "categories": [
+    {
+      "name": "Development",
+      "num": 3
+    },
+    {
+      "name": "Company",
+      "num": 5
+    },
+    {
+      "name": "Marketing",
+      "num": 2
+    },
+    {
+      "name": "UX Design",
+      "num": 6
+    },
+    {
+      "name": "Business",
+      "num": 2
+    },
+    {
+      "name": "App Development",
+      "num": 6
+    },
+    {
+      "name": "Application",
+      "num": 3
+    },
+    {
+      "name": "Art",
+      "num": 3
+    }
+  ],
+  "tags": [
+    {
+      "name": "Corporate"
+    },
+    {
+      "name": "Agency"
+    },
+    {
+      "name": "Creative"
+    },
+    {
+      "name": "Design"
+    },
+    {
+      "name": "Minimal"
+    },
+    {
+      "name": "Company"
+    },
+    {
+      "name": "Development"
+    },
+    {
+      "name": "App Landing"
+    },
+    {
+      "name": "Startup"
+    },
+    {
+      "name": "App"
+    },
+    {
+      "name": "Business"
+    },
+    {
+      "name": "Software"
+    },
+    {
+      "name": "Landing"
+    },
+    {
+      "name": "Art"
+    }
+  ]
+}

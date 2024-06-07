@@ -15,14 +15,13 @@ const HelpFaqPage = () => {
     <>
       <main className="page-wrapper rbt-dashboard-page">
         <Context>
-          <div className="rbt-panel-wrapper">
-            {/* <HeaderDashboard display="d-none" /> */}
-            {/* <Header /> */}
             <Header
-            headerTransparent="header-transparent"
+            headerTransparent="headers-transparent"
             headerSticky="header-sticky"
             btnClass="rainbow-gradient-btn"
-          />
+            />
+          <div className="rbt-panel-wrapper">
+            {/* <HeaderDashboard display="d-none" /> */}
             <PopupMobileMenu />
             {/* <LeftDashboardSidebar /> */}
 

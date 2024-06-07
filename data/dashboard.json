@@ -622,7 +622,7 @@
     {
       "title": "Product Portfolio",
       "desc": "Advanced AI products such as intelligent automation tools, predictive analytics platforms, and AI-powered customer service solutions.",
-      "isExpand": true
+      "isExpand": false
     },
     {
       "title": "Custom Solutions",

@@ -90,10 +90,10 @@ const Footer = () => {
                                 <i className="contact-icon fa-sharp fa-regular fa-envelope"></i>
                                 <Link href="#">{inner.mail}</Link>
                               </li>
-                              <li>
+                              {/* <li>
                                 <i className="contact-icon fa-sharp fa-regular fa-globe"></i>
                                 <Link href="#">{inner.website}</Link>
-                              </li>
+                              </li> */}
                               {/* <li>
                                 <i className="contact-icon fa-regular fa-phone"></i>
                                 <Link href="#">{inner.number}</Link>

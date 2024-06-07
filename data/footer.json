@@ -22,6 +22,10 @@
               "text": "Industry"
             },
             {
+              "link": "/product",
+              "text": "Product"
+            },
+            {
               "link": "/contact",
               "text": "Contact"
             }
@@ -33,27 +37,27 @@
           "title": "Services",
           "innerItem": [
             {
-              "link": "#",
+              "link": "/service-detail/1",
               "text": "Construction"
             },
             {
-              "link": "#",
+              "link": "/service-detail/2",
               "text": "Fintech"
             },
             {
-              "link": "#",
+              "link": "/service-detail/3",
               "text": "Real State"
             },
             {
-              "link": "#",
+              "link": "/service-detail/4",
               "text": "Hospitality"
             },
             {
-              "link": "#",
+              "link": "/service-detail/5",
               "text": "Tourism"
             },
             {
-              "link": "#",
+              "link": "/service-detail/6",
               "text": "Manufacturing & Trading"
             }
           ]

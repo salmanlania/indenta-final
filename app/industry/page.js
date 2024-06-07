@@ -1,3 +1,4 @@
+import Header from "@/components/Header/Header";
 import BackToTop from "../backToTop";
 import HelpFaqPage from "./index";
 
@@ -9,6 +10,11 @@ export const metadata = {
 const HelpFaqLayout = () => {
   return (
     <>
+      {/* <Header
+        headerTransparent="header-transparent"
+        headerSticky="header-sticky"
+        btnClass="rainbow-gradient-btn"
+      /> */}
       <HelpFaqPage />
       <BackToTop />
     </>
