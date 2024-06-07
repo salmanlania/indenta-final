@@ -25,12 +25,6 @@
       "text": "Industry"
     },
     {
-      "link": "/product",
-      "isIcon": false,
-      "isMenu": false,
-      "text": "Product"
-    },
-    {
       "link": "/contact",
       "isIcon": false,
       "isMenu": false,

@@ -8,11 +8,10 @@ import PopupMobileMenu from "@/components/Header/PopUpMobileMenu";
 import Footer from "@/components/Footers/Footer";
 import Copyright from "@/components/Footers/Copyright";
 import Breadcrumb from "@/components/Common/Breadcrumb";
-import BackToTop from "../backToTop";
-import CtaTwo from "@/components/CallToActions/Cta-Two";
-import Blog from "@/components/Blog/Blog";
+import BackToTop from "@/app/backToTop";
+import SingleBlog from "@/components/BlogDetails/BlogDetails";
 
-const BlogPage = () => {
+const BlogDetailsPage = ({ getBlog }) => {
   return (
     <>
       <main className="page-wrapper">
@@ -24,15 +23,9 @@ const BlogPage = () => {
             btnClass="rainbow-gradient-btn"
           />
           <PopupMobileMenu />
-          <Breadcrumb title="Industry" text="Industry" />
+          <Breadcrumb title="Industry Details" text="Industry Details" />
 
-          <Blog />
-
-          <div className="rainbow-cta-area rainbow-section-gap rainbow-section-gapBottom-big bg-color-1">
-            <div className="container">
-              <CtaTwo />
-            </div>
-          </div>
+          <SingleBlog getBlog={getBlog} />
 
           <BackToTop />
           <Footer />
@@ -43,4 +36,4 @@ const BlogPage = () => {
   );
 };
 
-export default BlogPage;
+export default BlogDetailsPage;

@@ -3,7 +3,7 @@
     {
       "links": [
         {
-          "title": "Qucik Links",
+          "title": "Quick Links",
           "innerItem": [
             {
               "link": "/home",
@@ -22,10 +22,6 @@
               "text": "Industry"
             },
             {
-              "link": "/product",
-              "text": "Product"
-            },
-            {
               "link": "/contact",
               "text": "Contact"
             }
@@ -37,27 +33,27 @@
           "title": "Services",
           "innerItem": [
             {
-              "link": "/service-detail/1",
+              "link": "/industry-detail/1",
               "text": "Construction"
             },
             {
-              "link": "/service-detail/2",
+              "link": "/industry-detail/2",
               "text": "Fintech"
             },
             {
-              "link": "/service-detail/3",
-              "text": "Real State"
+              "link": "/industry-detail/3",
+              "text": "Real Estate"
             },
             {
-              "link": "/service-detail/4",
+              "link": "/industry-detail/4",
               "text": "Hospitality"
             },
             {
-              "link": "/service-detail/5",
+              "link": "/industry-detail/5",
               "text": "Tourism"
             },
             {
-              "link": "/service-detail/6",
+              "link": "/industry-detail/6",
               "text": "Manufacturing & Trading"
             }
           ]

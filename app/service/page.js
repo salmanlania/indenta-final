@@ -1,18 +1,24 @@
+import Header from "@/components/Header/Header";
 import BackToTop from "../backToTop";
-import BlogPage from "./index";
+import HelpFaqPage from "./index";
 
 export const metadata = {
-  title: "Blog - || AiWave - AI SaaS Website NEXTJS14 UI Kit",
+  title: "Help & FAQs - || AiWave - AI SaaS Website NEXTJS14 UI Kit",
   description: "AiWave - AI SaaS Website NEXTJS14 UI Kit",
 };
 
-const BlogLayout = () => {
+const HelpFaqLayout = () => {
   return (
     <>
-      <BlogPage />
+      {/* <Header
+        headerTransparent="header-transparent"
+        headerSticky="header-sticky"
+        btnClass="rainbow-gradient-btn"
+      /> */}
+      <HelpFaqPage />
       <BackToTop />
     </>
   );
 };
 
-export default BlogLayout;
+export default HelpFaqLayout;

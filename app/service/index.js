@@ -1,46 +1,39 @@
 "use client";
 
 import Context from "@/context/Context";
-
-import HeaderTop from "@/components/Header/HeaderTop/HeaderTop";
-import Header from "@/components/Header/Header";
+import HeaderDashboard from "@/components/Header/HeaderDashboard";
 import PopupMobileMenu from "@/components/Header/PopUpMobileMenu";
+import LeftDashboardSidebar from "@/components/Header/LeftDashboardSidebar";
+import Help from "@/components/Help/Help";
+import BackToTop from "../backToTop";
 import Footer from "@/components/Footers/Footer";
 import Copyright from "@/components/Footers/Copyright";
-import Breadcrumb from "@/components/Common/Breadcrumb";
-import BackToTop from "../backToTop";
-import CtaTwo from "@/components/CallToActions/Cta-Two";
-import Blog from "@/components/Blog/Blog";
+import Header from "@/components/Header/Header";
 
-const BlogPage = () => {
+const HelpFaqPage = () => {
   return (
     <>
-      <main className="page-wrapper">
+      <main className="page-wrapper rbt-dashboard-page">
         <Context>
-          <HeaderTop />
-          <Header
-            headerTransparent="header-transparent"
+            <Header
+            headerTransparent="headers-transparent"
             headerSticky="header-sticky"
             btnClass="rainbow-gradient-btn"
-          />
-          <PopupMobileMenu />
-          <Breadcrumb title="Our Services" text="Service" />
+            />
+          <div className="rbt-panel-wrapper">
+            {/* <HeaderDashboard display="d-none" /> */}
+            <PopupMobileMenu />
+            {/* <LeftDashboardSidebar /> */}
 
-          <Blog />
-
-          <div className="rainbow-cta-area rainbow-section-gap rainbow-section-gapBottom-big bg-color-1">
-            <div className="container">
-              <CtaTwo />
-            </div>
+            <Help />
           </div>
-
           <BackToTop />
-          <Footer />
-          <Copyright />
         </Context>
       </main>
+      <Footer />
+      <Copyright />
     </>
   );
 };
 
-export default BlogPage;
+export default HelpFaqPage;

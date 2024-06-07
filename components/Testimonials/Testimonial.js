@@ -95,16 +95,16 @@ const Testimonial = () => {
                         <p className="description">{data.desc}</p>
                         <div className="bottom-content">
                           <div className="meta-info-section">
-                            <p className="title-text">{data.name}</p>
-                            <p className="desc">{data.post}</p>
-                            <div className="desc-img">
+                             <p className="title-text">{data.name}</p>
+                           {/* <p className="desc">{data.post}</p> */}
+                            {/* <div className="desc-img">
                               <Image
                                 src={data.brandImg}
                                 width={86}
                                 height={23}
                                 alt="Brand Image"
                               />
-                            </div>
+                            </div> */}
                           </div>
                           <div className="meta-img-section">
                             {/* <Link
@@ -117,12 +117,12 @@ const Testimonial = () => {
                               </span>
                             </Link> */}
                             <a className="image" href="#">
-                              <Image
+                              {/* <Image
                                 src={data.userImg}
                                 width={43}
                                 height={43}
                                 alt=""
-                              />
+                              /> */}
                             </a>
                           </div>
                         </div>
