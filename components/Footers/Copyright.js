@@ -11,10 +11,12 @@ const Copyright = () => {
               <div className="copyright-left">
                 <ul className="ft-menu link-hover">
                   <li>
-                    <Link href="/privacy-policy">Privacy Policy</Link>
+                    {/* <Link href="/privacy-policy">Privacy Policy</Link> */}
+                    Privacy Policy
                   </li>
                   <li>
-                    <Link href="/terms-policy">Terms And Condition</Link>
+                    Terms And Condition
+                    {/* <Link href="/terms-policy">Terms And Condition</Link> */}
                   </li>
                   <li>
                     <Link href="/contact">Contact Us</Link>
@@ -26,7 +28,7 @@ const Copyright = () => {
               <div className="copyright-right text-center text-lg-end">
                 <p className="copyright-text">
                   Copyright © 2024{" "}
-                    <span>Indenta AI</span>
+                  <span>Indenta AI</span>
                 </p>
               </div>
             </div>
