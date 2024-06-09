@@ -61,7 +61,10 @@ const Home = () => {
                 <h1 className="title display-one">
                   Transforming Industries
                   <br />{" "}
-                  <span className="header-caption" style={{marginRight : '37rem' , textAlign : 'center'}}>
+                  <span className="is-visible theme-gradient">
+                    With Generative AI
+                  </span>
+                  {/* <span className="header-caption" style={{marginRight : '37rem' , textAlign : 'center'}}>
                     <span className="cd-headline rotate-1">
                       <span className="cd-words-wrapper">
                         <b
@@ -96,7 +99,7 @@ const Home = () => {
                         </b>
                       </span>
                     </span>
-                  </span>{" "}
+                  </span>{" "} */}
                   {/* AI Hack */}
                 </h1>
                 {/* <h1 className="title ">

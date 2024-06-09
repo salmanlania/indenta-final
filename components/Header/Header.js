@@ -67,7 +67,7 @@ const Header = ({ headerTransparent, headerSticky, btnClass }) => {
             <div className="col-lg-2 col-md-6 col-6 position-static">
               <div className="header-right">
                 <div className="header-btn">
-                  <Link className={`${btnClass}`} href="/">
+                  <Link className={`${btnClass}`} href="/contact">
                     <span>Get Start</span>
                   </Link>
                 </div>

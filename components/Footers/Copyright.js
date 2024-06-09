@@ -26,12 +26,7 @@ const Copyright = () => {
               <div className="copyright-right text-center text-lg-end">
                 <p className="copyright-text">
                   Copyright © 2024{" "}
-                  <Link
-                    href="https://themeforest.net/user/rainbow-themes"
-                    className="btn-read-more"
-                  >
-                    <span>Indenta-AI</span>
-                  </Link>
+                    <span>Indenta AI</span>
                 </p>
               </div>
             </div>

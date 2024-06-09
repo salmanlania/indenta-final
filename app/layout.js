@@ -2,6 +2,7 @@
 
 import React, { useEffect } from "react";
 import { Sora } from "@next/font/google";
+// import { Sora } from "@next/font/google";
 
 import "bootstrap/scss/bootstrap.scss";
 
@@ -15,11 +16,11 @@ import "slick-carousel/slick/slick-theme.css";
   import "react-tooltip/dist/react-tooltip.css";
 // ========= Plugins CSS END =========
 
-const sora = Sora({
-  subsets:['latin'],
-  weight:['100','200','300','400','500','600','700','800'],
-  variable: '--font-sora',
-})
+// const sora = Sora({
+//   subsets:['latin'],
+//   weight:['100','200','300','400','500','600','700','800'],
+//   variable: '--font-sora',
+// })
 
 import "../public/scss/style.scss";
 
@@ -30,7 +31,7 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en">
-      <body className={sora.className} suppressHydrationWarning={true}>
+      <body suppressHydrationWarning={true}>
       {/* <link rel="icon" href="/images/logo.svg" sizes="any" /> */}
         {children}
       </body>
