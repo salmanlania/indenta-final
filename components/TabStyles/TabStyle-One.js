@@ -66,7 +66,7 @@ const TabStyleOne = () => {
                                 ))}
                               </ul>
                             </div>
-                            <div className="read-more">
+                            {/* <div className="read-more">
                               <Link
                                 className="btn-default color-blacked"
                                 href="#"
@@ -74,7 +74,7 @@ const TabStyleOne = () => {
                                 Start Exploring Now
                                 <i className="fa-sharp fa-solid fa-arrow-right ps-2"></i>
                               </Link>
-                            </div>
+                            </div> */}
                           </div>
                         </div>
                         <div className="col-xl-6 mt_md--30 mt_sm--30">
