@@ -2,8 +2,8 @@ import BackToTop from "../backToTop";
 import BlogPage from "./index";
 
 export const metadata = {
-  title: "Blog - || AiWave - AI SaaS Website NEXTJS14 UI Kit",
-  description: "AiWave - AI SaaS Website NEXTJS14 UI Kit",
+  title: "Indenta AI - || Industry",
+  description: "Indenta AI - || Industry",
 };
 
 const BlogLayout = () => {

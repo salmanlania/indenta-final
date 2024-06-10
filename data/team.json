@@ -3,68 +3,57 @@
     {
       "img": "/images/team/team-final/waqas.png",
       "name": "Mr. Waqas Ali",
-      "profission": " Chief AI Scientist",
-      "location": "CO Miego, AD,USA"
+      "profission": " Chief AI Scientist"
     },
     {
       "img": "/images/team/team-final/shahbaz.png",
       "name": "Mr. Shahbaz Abdullah",
-      "profission": "Chief Project Management Officer",
-      "location": "CO Miego, AD,USA"
+      "profission": "Chief Project Management Officer"
     },
     {
       "img": "/images/team/syed_hassan.png",
       "name": "Syed Hassan",
-      "profission": "Head of Business Development",
-      "location": "CO Miego, AD,USA"
+      "profission": "Head of Business Development"
     },
     {
       "img": "/images/team/team-final/hammad.png",
       "name": " Mr. Hammad Raza",
-      "profission": "Team Lead Data Science",
-      "location": "CO Miego, AD,USA"
+      "profission": "Team Lead Data Science"
     },
     {
       "img": "/images/team/team-final/rumail.png",
       "name": "Syed Romail Shah",
-      "profission": "IT Services & Security Officer",
-      "location": "CO Miego, AD,USA"
+      "profission": "IT Services & Security Officer"
     },
     {
       "img": "/images/team/team-final/amna.png",
       "name": "Ms. Amna Dadi",
-      "profission": "Customer Journey Manager",
-      "location": "CO Miego, AD,USA"
+      "profission": "Customer Journey Manager"
     },
     {
       "img": "/images/team/team-final/farhan.png",
       "name": "Mr. Farhan Wali",
-      "profission": "Team Lead  Generative AI",
-      "location": "CO Miego, AD,USA"
+      "profission": "Team Lead  Generative AI"
     },
     {
       "img": "/images/team/team-final/zohan.png",
       "name": "Mr. Zohan Zafar",
-      "profission": "Team Lead Backend Development",
-      "location": "CO Miego, AD,USA"
+      "profission": "Team Lead Backend Development"
     },
     {
       "img": "/images/team/team-final/nawal.png",
       "name": "Ms. Nawal Arshad",
-      "profission": "Team Lead UI/UX",
-      "location": "CO Miego, AD,USA"
+      "profission": "Team Lead UI/UX"
     },
     {
       "img": "/images/team/team-final/hassan.png",
       "name": "Mr. Hafiz Hassan Mustafa",
-      "profission": "Team Lead NLP",
-      "location": "CO Miego, AD,USA"
+      "profission": "Team Lead NLP"
     },
     {
       "img": "/images/team/team-final/salman.png",
       "name": "Mr. Salman Lania",
-      "profission": "Team Lead Frontend Development",
-      "location": "CO Miego, AD,USA"
+      "profission": "Team Lead Frontend Development"
     }
   ]
 }
