@@ -22,6 +22,7 @@ import bgShapeOne from "../../public/images/bg/bg-shape-four.png";
 import bgShapeTwo from "../../public/images/bg/bg-shape-five.png";
 import bgShapeThree from "../../public/images/bg/bg-shape-two.png";
 
+
 import BrandList from "../Brands/BrandList";
 import TabStyleOne from "../TabStyles/TabStyle-One";
 import ServiceStyleOne from "../Services/ServiceStyle-One";
@@ -237,9 +238,21 @@ const Home = () => {
           <h2 className="title mb--2">
             Industries We Serve
           </h2>
-          <div className="html-tabs" data-tabs="true">
+          <div className="html-tabs" data-tabs="true" style={{margin : 'auto'}}>
             <AdvanceTab />
-          </div>
+          </div> 
+          {/* <div className="collabration-image-section"> */}
+            {/* <div className="logo-section">
+                  <div className="center-logo">
+                    <Image
+                      src={logo}
+                      width={104}
+                      height={143}
+                      alt="Small Logo"
+                    />
+                  </div>
+                </div> */}
+          {/* </div> */}
         </div>
         <div className="bg-shape">
           <Image src={bgShape} width={630} height={879} alt="Bg Shape" />
