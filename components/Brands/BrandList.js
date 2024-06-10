@@ -12,11 +12,11 @@ import Slider from "react-slick";
 // import brandImg5 from "../../public/images/brand/slack.png";
 // import brandImg6 from "../../public/images/brand/mapbox.png";
 
-import brandImg1 from "../../public/images/brand/newera.png";
-import brandImg2 from "../../public/images/brand/cgd.png";
-import brandImg3 from "../../public/images/brand/habibi.png";
-import brandImg4 from "../../public/images/brand/brokr.png";
-import brandImg5 from "../../public/images/brand/mafco.png";
+import brandImg1 from "../../public/images/brand/logos/BK1A0824.png";
+import brandImg2 from "../../public/images/brand/logos/CGD logo.png";
+import brandImg3 from "../../public/images/brand/logos/habibi2.png";
+import brandImg4 from "../../public/images/brand/logos/Vector Smart Object.png";
+import brandImg5 from "../../public/images/brand/logos/mafco logo.png";
 
 const BrandList = () => {
   var settings = {
